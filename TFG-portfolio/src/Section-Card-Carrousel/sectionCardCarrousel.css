@@ -18,11 +18,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 85%;
-        height: 10vh;
+        width: 95%;
+        height: auto;
         font-size: 2rem;
         color:white;
         border-bottom: 2px solid rgb(255, 81, 0);
+        padding-bottom: 2vh;
+        margin-bottom: 2vh;
     }
    
     .orangeborder{
@@ -38,11 +40,13 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 25%;
-        height: 10vh;
+        width: 55%;
+        height: auto;
         font-size: 2rem;
         color:white;
         border-bottom: 2px solid rgb(255, 81, 0);
+        padding-bottom: 2vh;
+        margin-bottom: 2vh;
     }
     
     .orangeborder{
@@ -65,11 +69,13 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 20%;
-        height: 10vh;
+        width: 50%;
+        height: auto;
         font-size: 2rem;
         color:white;
         border-bottom: 2px solid rgb(255, 81, 0);
+        padding-bottom: 2vh;
+        margin-bottom: 2vh;
     }
 
     .orangeborder{

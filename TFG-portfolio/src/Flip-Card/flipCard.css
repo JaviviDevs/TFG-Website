@@ -1,9 +1,14 @@
 .flip-card {
-    background-color: transparent;
-    width: 190px;
-    height: 254px;
-    perspective: 1000px;
-    font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 180px;
+  min-width: 180px;
+  height: 254px;
+  perspective: 1000px;
+  font-family: sans-serif;
 }
 
 .flip-card-inner {
@@ -52,11 +57,14 @@
     max-width: 95%;
     max-height: 95%;
   }
+
   .flip-card-back-p{
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bolder;
-    margin: opx;
+    margin: 0px;
     width: auto;
     height: auto;
+    max-width: 95%;
+    max-height: 95%;
   }

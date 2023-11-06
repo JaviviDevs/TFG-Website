@@ -31,7 +31,7 @@ export function ProjectCardsCarrousel({cards}) {
     };
   
     const cardContainerStyle = {
-      transform: `translateX(-${currentIndex * 225}px)`, 
+      transform: `translateX(-${currentIndex * 215}px)`, 
       transition: 'transform 0.5s ease',
     };
 

@@ -10,14 +10,13 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 80%;
+    width: 65%;
     height: 57vh;
     z-index: 100;
     padding-left:1vw;
     padding-right:1vw;
     gap:35px;
     overflow: hidden;
-
 }
 
 .project-cards-carrousel-button:hover{

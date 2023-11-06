@@ -1,4 +1,3 @@
-import React from 'react';
 import {ProjectCardsCarrousel} from '../Project-Card-Carrousel/projectCardCarrousel.jsx'
 import './sectionCardCarrousel.css'
 
