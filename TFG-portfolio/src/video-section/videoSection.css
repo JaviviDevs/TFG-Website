@@ -5,22 +5,32 @@
     align-items:space-around;
     width: 95%;
     height: auto;
-    margin-top:5vh;
-    margin-bottom:5vh;
-    position:relative;
-    overflow:hidden;
+    margin-bottom:2vh;
 }
 
 
-
-.video-section-content-p{
+.video-section-p{
     display: flex;
     justify-content: flex-start;
     align-items:center;
     width: 100%;
     height: auto;
     font-size: 1.2rem;
+    color:white;
+    text-align: justify;
     margin: 0px;
+    margin-bottom: 2vh;
+}
+
+.video-section-h4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    color:white;
+    margin:0px;
     margin-bottom: 2vh;
 }
 
@@ -69,15 +79,13 @@
         margin:2vh;
     }
     
-    .video-section-content-description{
+    .video-section-content-upgrades{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items:flex-start;
         width: 95%;
         height: auto;
-        color:white;
-        text-align: justify;
         margin:1vh;
     }
 }
@@ -85,6 +93,58 @@
 /* Estilos para tablets (ancho máximo de 1024px) */
 @media (max-width: 1024px) and (min-width:769px){
     /* Estilos específicos para tablets */
+    .video-section-h3{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 30%;
+        height: auto;
+        font-size: 2rem;
+        color:white;
+        border-bottom: 2px solid rgb(255, 81, 0);
+        padding-bottom: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .video-section-content{
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        width: 100%;
+        height: auto;
+    }
+
+    .reverse-video-section-content{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items:flex-start;
+        width: 100%;
+        height: auto;
+    }
+
+    .video-section-content-video{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 50%;
+        height: auto;
+    }
+    
+    .video-section-content-upgrades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-start;
+        width: 45%;
+        height: auto;
+    }
+    
+}
+
+/* Estilos para computadoras de escritorio (ancho mínimo de 1025px) */
+@media (min-width: 1025px) {
+    /* Estilos específicos para escritorio */
     .video-section-h3{
         display: flex;
         justify-content: flex-start;
@@ -115,60 +175,6 @@
         height: auto;
     }
 
-    .video-section-content-video{
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        width: 50%;
-        height: auto;
-    }
-    
-    .video-section-content-description{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items:flex-start;
-        width: 45%;
-        height: auto;
-        color:white;
-        text-align: justify;
-    }
-    
-}
-
-/* Estilos para computadoras de escritorio (ancho mínimo de 1025px) */
-@media (min-width: 1025px) {
-    /* Estilos específicos para escritorio */
-    .video-section-h3{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: 20%;
-        height: auto;
-        font-size: 2rem;
-        color:white;
-        border-bottom: 2px solid rgb(255, 81, 0);
-        padding-bottom: 2vh;
-        margin-bottom: 2vh;
-    }
-
-    .video-section-content{
-        display: flex;
-        justify-content: space-between;
-        align-items:flex-start;
-        width: 100%;
-        height: auto;
-    }
-
-    .reverse-video-section-content{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items:flex-start;
-        width: 100%;
-        height: auto;
-    }
-
 
     .video-section-content-video{
         display: flex;
@@ -178,14 +184,12 @@
         height: auto;
     }
     
-    .video-section-content-description{
+    .video-section-content-upgrades{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items:flex-start;
         width: 45%;
         height: auto;
-        color:white;
-        text-align: justify;
     }
 }

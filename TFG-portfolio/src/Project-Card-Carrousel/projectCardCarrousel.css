@@ -10,11 +10,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 65%;
-    height: 57vh;
+    width: 70%;
+    height: auto;
     z-index: 100;
-    padding-left:1vw;
-    padding-right:1vw;
+    padding:1vh;
     gap:35px;
     overflow: hidden;
 }
@@ -74,18 +73,6 @@
     /* Estilos específicos para escritorio */
 
     .project-cards-carrousel-button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width:4vw;
-        height:4vw;
-        color: rgb(255, 106, 7);
-        font-size: 1.5rem;
-        font-weight: bolder;
-        border-radius: 100%;
-        background-color: transparent;
-        transition: 0.2 all ease;
-        border:1px solid rgb(219, 62, 0);
-        z-index: 101;
+        display:none;
     }
 }
